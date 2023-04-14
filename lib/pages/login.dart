@@ -28,7 +28,7 @@ class _LoginState extends State<Login> {
                   SizedBox(height: 20),
 
                   Text(
-                    'Welcome to TravelDoc',
+                    'Welcome to VehicleDoc',
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
                   ),
 
@@ -75,6 +75,7 @@ class _LoginState extends State<Login> {
                     padding: EdgeInsets.fromLTRB(30, 0, 30, 20),
                   ),
 
+                  // Login Button
                   Container(
                     child: TextButton(
                       style: TextButton.styleFrom(
